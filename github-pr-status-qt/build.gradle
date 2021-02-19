@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     compile project(":common")
-    compile group: 'org.kohsuke', name: 'github-api', version: '1.106'
+    compile group: 'org.kohsuke', name: 'github-api', version: '1.122'
 
     testCompile 'org.mockito:mockito-core:3.2.4'
     testCompile 'junit:junit:4.13'
@@ -27,7 +27,7 @@ dependencies {
 
 processResources {
     doFirst {
-        project.pluginDesc.id = "github.pr.status"
+        project.pluginDesc.id = "github.pr.status-qt"
         project.pluginDesc.name = "Github Pull Requests status notifier"
         project.pluginDesc.description = "Updates build status for GitHub pull request"
     }

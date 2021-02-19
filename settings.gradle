@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-rootProject.name = 'gocd-build-status-notifier'
+rootProject.name = 'gocd-build-status-notifier-qt'
 include 'common'
-include 'github-pr-status'
+include 'github-pr-status-qt'
 include 'stash-pr-status'
 include 'gerrit-cs-status'
 include 'gitlab-mr-status'
