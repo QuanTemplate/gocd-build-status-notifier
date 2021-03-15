@@ -27,7 +27,7 @@ dependencies {
 
 processResources {
     doFirst {
-        project.pluginDesc.id = "github.pr.status-qt"
+        project.pluginDesc.id = "github.pr.status"
         project.pluginDesc.name = "Github Pull Requests status notifier"
         project.pluginDesc.description = "Updates build status for GitHub pull request"
     }
